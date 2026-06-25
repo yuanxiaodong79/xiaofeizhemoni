@@ -1,0 +1,19 @@
+{
+  "name": "marketing-windtunnel-backend",
+  "version": "1.0.0",
+  "description": "营销风洞智能体沙盘平台后端",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "uuid": "^9.0.1",
+    "pg": "^8.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
